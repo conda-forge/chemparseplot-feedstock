@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: chemparseplot
-  version: "1.8.0"
+  version: "1.9.12"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/c/chemparseplot/chemparseplot-${{ version }}.tar.gz
-  sha256: 09ea7bc39a3d1c4adb7ea45c236b57786cb0ba8184ecc6cd93b1aec391b88dbe
+  sha256: a04e77248f5885cce5b5168606d1b66910d110bd0d184bee94d852d4bed3252f
 
 build:
   noarch: python
